@@ -305,7 +305,7 @@ U 1 1 600E6CC3
 P 7600 3100
 F 0 "F1" V 7375 3100 50  0000 C CNN
 F 1 "Polyfuse 1.5A >=6V" V 7466 3100 50  0000 C CNN
-F 2 "Fuse:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 7650 2900 50  0001 L CNN
+F 2 "Fuse-fixed:Fuse_1812_4532Metric_Pad1.30x3.40mm_HandSolder" H 7650 2900 50  0001 L CNN
 F 3 "~" H 7600 3100 50  0001 C CNN
 	1    7600 3100
 	0    1    1    0   
@@ -654,7 +654,7 @@ AR Path="/5FEEBD3E/5FEE51DF" Ref="L?"  Part="1"
 AR Path="/5FF1E7F2/5FEE51DF" Ref="L1"  Part="1" 
 F 0 "L1" V 6675 3100 50  0000 C CNN
 F 1 "22uH 3A" V 6584 3100 50  0000 C CNN
-F 2 "Inductor-extra:L_12x12mm_H8mm-L_Radial_D10.0mm_P5.00mm" H 6450 3100 50  0001 C CNN
+F 2 "Inductor-fixed:L_12x12mm_H8mm" H 6450 3100 50  0001 C CNN
 F 3 "~" H 6450 3100 50  0001 C CNN
 	1    6450 3100
 	0    -1   -1   0   

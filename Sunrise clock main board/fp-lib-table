@@ -9,4 +9,6 @@
   (lib (name Package_SO-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Package_SO-fixed.pretty)(options "")(descr ""))
   (lib (name Capacitor-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Capacitor-extra.pretty)(options "")(descr ""))
   (lib (name Inductor-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-extra.pretty)(options "")(descr ""))
+  (lib (name Inductor-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-fixed.pretty)(options "")(descr ""))
+  (lib (name Fuse-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Fuse-fixed.pretty)(options "")(descr ""))
 )
