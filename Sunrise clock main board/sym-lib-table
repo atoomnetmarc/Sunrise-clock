@@ -1,0 +1,5 @@
+(sym_lib_table
+  (lib (name MCU_Module-extra)(type Legacy)(uri ${ATOOMNETKICAD}/symbols/MCU_Module-extra.lib)(options "")(descr ""))
+  (lib (name Module-extra)(type Legacy)(uri ${ATOOMNETKICAD}/symbols/Module-extra.lib)(options "")(descr ""))
+  (lib (name Display_Graphic-extra)(type Legacy)(uri ${ATOOMNETKICAD}/symbols/Display_Graphic-extra.lib)(options "")(descr ""))
+)

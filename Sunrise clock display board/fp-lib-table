@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name Display-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Display-extra.pretty)(options "")(descr ""))
+  (lib (name MountingHole-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/MountingHole-extra.pretty)(options "")(descr ""))
+)
