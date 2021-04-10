@@ -11,4 +11,6 @@
   (lib (name Inductor-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-extra.pretty)(options "")(descr ""))
   (lib (name Inductor-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Inductor-fixed.pretty)(options "")(descr ""))
   (lib (name Fuse-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/Fuse-fixed.pretty)(options "")(descr ""))
+  (lib (name NetTie-extra)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/NetTie-extra.pretty)(options "")(descr ""))
+  (lib (name NetTie-fixed)(type KiCad)(uri ${ATOOMNETKICAD}/footprints/NetTie-fixed.pretty)(options "")(descr ""))
 )

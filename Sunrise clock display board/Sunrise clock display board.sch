@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Sunrise clock display board"
-Date "2021-04-09"
+Date "2021-04-10"
 Rev "V1.0"
 Comp ""
 Comment1 ""
@@ -696,4 +696,15 @@ Wire Wire Line
 Connection ~ 2750 4000
 Wire Wire Line
 	2750 4000 2750 4100
+$Comp
+L Graphic:Logo_Open_Hardware_Large LOGO1
+U 1 1 60719F19
+P 1200 6100
+F 0 "LOGO1" H 1200 6600 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Large" H 1200 5700 50  0001 C CNN
+F 2 "Symbol:OSHW-Logo_19x20mm_SilkScreen" H 1200 6100 50  0001 C CNN
+F 3 "~" H 1200 6100 50  0001 C CNN
+	1    1200 6100
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

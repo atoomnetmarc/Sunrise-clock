@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "Sunrise clock main board"
-Date "2021-04-09"
+Date "2021-04-10"
 Rev "V1.0"
 Comp ""
 Comment1 ""
@@ -16,68 +16,68 @@ $EndDescr
 $Comp
 L Device:Opamp_Dual_Generic U?
 U 1 1 5FF1190D
-P 4050 6550
+P 3000 6550
 AR Path="/5FF1190D" Ref="U?"  Part="1" 
 AR Path="/5FEEBD3E/5FF1190D" Ref="U3"  Part="1" 
-F 0 "U3" H 4050 6917 50  0000 C CNN
-F 1 "LM358DR" H 4050 6826 50  0000 C CNN
-F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 4050 6550 50  0001 C CNN
-F 3 "~" H 4050 6550 50  0001 C CNN
-	1    4050 6550
+F 0 "U3" H 3000 6917 50  0000 C CNN
+F 1 "LM358DR" H 3000 6826 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3000 6550 50  0001 C CNN
+F 3 "~" H 3000 6550 50  0001 C CNN
+	1    3000 6550
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4350 6550 4450 6550
+	3300 6550 3400 6550
 Wire Wire Line
-	4450 6550 4450 6900
+	3400 6550 3400 6900
 Wire Wire Line
-	4450 6900 3700 6900
+	3400 6900 2650 6900
 Wire Wire Line
-	3700 6900 3700 6650
+	2650 6900 2650 6650
 Wire Wire Line
-	3700 6650 3750 6650
+	2650 6650 2700 6650
 $Comp
 L power:+BATT #PWR?
 U 1 1 5FF11918
-P 3600 6100
+P 2400 6100
 AR Path="/5FF11918" Ref="#PWR?"  Part="1" 
 AR Path="/5FEEBD3E/5FF11918" Ref="#PWR0113"  Part="1" 
-F 0 "#PWR0113" H 3600 5950 50  0001 C CNN
-F 1 "+BATT" H 3615 6273 50  0000 C CNN
-F 2 "" H 3600 6100 50  0001 C CNN
-F 3 "" H 3600 6100 50  0001 C CNN
-	1    3600 6100
+F 0 "#PWR0113" H 2400 5950 50  0001 C CNN
+F 1 "+BATT" H 2415 6273 50  0000 C CNN
+F 2 "" H 2400 6100 50  0001 C CNN
+F 3 "" H 2400 6100 50  0001 C CNN
+	1    2400 6100
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3750 6450 3600 6450
+	2700 6450 2400 6450
 Wire Wire Line
-	3600 6450 3600 6100
+	2400 6450 2400 6100
 $Comp
 L Device:R R?
 U 1 1 5FF11920
-P 4600 6750
+P 3700 6750
 AR Path="/5FF11920" Ref="R?"  Part="1" 
 AR Path="/5FEEBD3E/5FF11920" Ref="R30"  Part="1" 
-F 0 "R30" H 4670 6796 50  0000 L CNN
-F 1 "4k7" H 4670 6705 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4530 6750 50  0001 C CNN
-F 3 "~" H 4600 6750 50  0001 C CNN
-	1    4600 6750
+F 0 "R30" H 3770 6796 50  0000 L CNN
+F 1 "4k7" H 3770 6705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3630 6750 50  0001 C CNN
+F 3 "~" H 3700 6750 50  0001 C CNN
+	1    3700 6750
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 6550 4600 6550
+	3400 6550 3700 6550
 Wire Wire Line
-	4600 6550 4600 6600
-Connection ~ 4450 6550
+	3700 6550 3700 6600
+Connection ~ 3400 6550
 Wire Wire Line
-	4600 6900 4600 6950
+	3700 6900 3700 6950
 Wire Wire Line
-	4600 7300 4600 7400
-Connection ~ 4600 6950
+	3700 7300 3700 7400
+Connection ~ 3700 6950
 Wire Wire Line
-	4600 6950 4600 7000
+	3700 6950 3700 7000
 Text GLabel 6300 6950 2    50   Output ~ 0
 VBAT_DIV
 Wire Wire Line
@@ -115,8 +115,8 @@ L Device:R R?
 U 1 1 5FF1195F
 P 8800 4700
 AR Path="/5FF1195F" Ref="R?"  Part="1" 
-AR Path="/5FEEBD3E/5FF1195F" Ref="R29"  Part="1" 
-F 0 "R29" V 8593 4700 50  0000 C CNN
+AR Path="/5FEEBD3E/5FF1195F" Ref="R20"  Part="1" 
+F 0 "R20" V 8593 4700 50  0000 C CNN
 F 1 "1k" V 8684 4700 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 8730 4700 50  0001 C CNN
 F 3 "~" H 8800 4700 50  0001 C CNN
@@ -160,21 +160,21 @@ $EndComp
 $Comp
 L Device:R R?
 U 1 1 5FF11976
-P 3600 7150
+P 2400 7150
 AR Path="/5FF11976" Ref="R?"  Part="1" 
-AR Path="/5FEEBD3E/5FF11976" Ref="R70"  Part="1" 
-F 0 "R70" H 3670 7196 50  0000 L CNN
-F 1 "10M" H 3670 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3530 7150 50  0001 C CNN
-F 3 "~" H 3600 7150 50  0001 C CNN
-	1    3600 7150
+AR Path="/5FEEBD3E/5FF11976" Ref="R80"  Part="1" 
+F 0 "R80" H 2470 7196 50  0000 L CNN
+F 1 "10M" H 2470 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 2330 7150 50  0001 C CNN
+F 3 "~" H 2400 7150 50  0001 C CNN
+	1    2400 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	3600 6450 3600 7000
-Connection ~ 3600 6450
+	2400 6450 2400 7000
+Connection ~ 2400 6450
 Wire Wire Line
-	3600 7300 3600 7400
+	2400 7300 2400 7400
 Wire Notes Line
 	6850 7700 6850 5400
 Wire Notes Line
@@ -242,24 +242,24 @@ F 3 "" H 2950 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	2950 4750 2950 4900
+	2950 4750 2950 4800
 $Comp
 L Device:R R?
 U 1 1 5FF1CD1C
-P 4600 4150
+P 4500 4150
 AR Path="/5FF1CD1C" Ref="R?"  Part="1" 
 AR Path="/5FEEBD3E/5FF1CD1C" Ref="R12"  Part="1" 
-F 0 "R12" V 4393 4150 50  0000 C CNN
-F 1 "100R" V 4484 4150 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4530 4150 50  0001 C CNN
-F 3 "~" H 4600 4150 50  0001 C CNN
-	1    4600 4150
+F 0 "R12" V 4293 4150 50  0000 C CNN
+F 1 "100R" V 4384 4150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4430 4150 50  0001 C CNN
+F 3 "~" H 4500 4150 50  0001 C CNN
+	1    4500 4150
 	0    1    1    0   
 $EndComp
 Text GLabel 5050 4150 2    50   Output ~ 0
 ~RESET
 Wire Wire Line
-	4750 4150 4850 4150
+	4650 4150 4850 4150
 Wire Notes Line
 	550  5300 6850 5300
 Wire Notes Line
@@ -269,7 +269,7 @@ Wire Notes Line
 Wire Notes Line
 	550  3350 550  5300
 Text Notes 650  3600 0    118  ~ 0
-ESP32 voltage monitor
+Voltage monitor
 $Comp
 L power:GND #PWR?
 U 1 1 6010DE5A
@@ -325,21 +325,19 @@ Power supply
 $Comp
 L Device:R R?
 U 1 1 60138E4A
-P 5800 6950
+P 5250 6950
 AR Path="/60138E4A" Ref="R?"  Part="1" 
 AR Path="/6000DF4A/60138E4A" Ref="R?"  Part="1" 
-AR Path="/5FEEBD3E/60138E4A" Ref="R1"  Part="1" 
-F 0 "R1" V 5593 6950 50  0000 C CNN
-F 1 "100R" V 5684 6950 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5730 6950 50  0001 C CNN
-F 3 "~" H 5800 6950 50  0001 C CNN
-	1    5800 6950
+AR Path="/5FEEBD3E/60138E4A" Ref="R15"  Part="1" 
+F 0 "R15" V 5043 6950 50  0000 C CNN
+F 1 "100R" V 5134 6950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 5180 6950 50  0001 C CNN
+F 3 "~" H 5250 6950 50  0001 C CNN
+	1    5250 6950
 	0    1    1    0   
 $EndComp
 Wire Wire Line
-	4600 6950 5400 6950
-Wire Wire Line
-	5950 6950 6300 6950
+	5400 6950 6300 6950
 Wire Wire Line
 	1300 2000 2200 2000
 Wire Wire Line
@@ -373,10 +371,10 @@ $EndComp
 Wire Wire Line
 	5250 2800 5250 2300
 $Comp
-L Device:CP C40
+L Device:CP C33
 U 1 1 5FE382EA
 P 5900 2450
-F 0 "C40" H 6018 2496 50  0000 L CNN
+F 0 "C33" H 6018 2496 50  0000 L CNN
 F 1 "33uF/6.3V" H 6018 2405 50  0000 L CNN
 F 2 "Capacitor_SMD:CP_Elec_4x5.4" H 5938 2300 50  0001 C CNN
 F 3 "~" H 5900 2450 50  0001 C CNN
@@ -425,8 +423,8 @@ P 6150 1300
 AR Path="/5FE4AEC3" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE4AEC3" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FE4AEC3" Ref="TP4"  Part="1" 
-F 0 "TP4" H 6208 1418 50  0000 L CNN
-F 1 "TestPoint" H 6208 1327 50  0000 L CNN
+F 0 "TP4" H 6100 1500 50  0000 L CNN
+F 1 "TestPoint" H 6208 1327 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 6350 1300 50  0001 C CNN
 F 3 "~" H 6350 1300 50  0001 C CNN
 	1    6150 1300
@@ -447,7 +445,7 @@ AR Path="/5FE4C814" Ref="TP?"  Part="1"
 AR Path="/5FE8F2D8/5FE4C814" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FE4C814" Ref="TP7"  Part="1" 
 F 0 "TP7" H 4908 3868 50  0000 L CNN
-F 1 "TestPoint" H 4908 3777 50  0000 L CNN
+F 1 "TestPoint" H 4908 3777 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5050 3750 50  0001 C CNN
 F 3 "~" H 5050 3750 50  0001 C CNN
 	1    4850 3750
@@ -459,22 +457,21 @@ Connection ~ 4850 4150
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5FE4F0D5
-P 5400 6150
+P 4850 6150
 AR Path="/5FE4F0D5" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE4F0D5" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FE4F0D5" Ref="TP8"  Part="1" 
-F 0 "TP8" H 5458 6268 50  0000 L CNN
-F 1 "TestPoint" H 5458 6177 50  0000 L CNN
-F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5600 6150 50  0001 C CNN
-F 3 "~" H 5600 6150 50  0001 C CNN
-	1    5400 6150
+F 0 "TP8" H 4908 6268 50  0000 L CNN
+F 1 "TestPoint" H 4908 6177 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5050 6150 50  0001 C CNN
+F 3 "~" H 5050 6150 50  0001 C CNN
+	1    4850 6150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	5400 6150 5400 6950
-Connection ~ 5400 6950
+	4850 6150 4850 6950
 Wire Wire Line
-	5400 6950 5650 6950
+	4850 6950 5100 6950
 Text GLabel 2200 4050 0    50   Input ~ 0
 3V_MCU
 Wire Wire Line
@@ -489,7 +486,7 @@ AR Path="/5FEA4CD8" Ref="TP?"  Part="1"
 AR Path="/5FE8F2D8/5FEA4CD8" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FEA4CD8" Ref="TP6"  Part="1" 
 F 0 "TP6" H 3008 3868 50  0000 L CNN
-F 1 "TestPoint" H 3008 3777 50  0000 L CNN
+F 1 "TestPoint" H 3008 3777 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 3150 3750 50  0001 C CNN
 F 3 "~" H 3150 3750 50  0001 C CNN
 	1    2950 3750
@@ -501,14 +498,14 @@ Connection ~ 2950 4050
 $Comp
 L Device:R R?
 U 1 1 5FF11926
-P 4600 7150
+P 3700 7150
 AR Path="/5FF11926" Ref="R?"  Part="1" 
 AR Path="/5FEEBD3E/5FF11926" Ref="R40"  Part="1" 
-F 0 "R40" H 4670 7196 50  0000 L CNN
-F 1 "10k" H 4670 7105 50  0000 L CNN
-F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4530 7150 50  0001 C CNN
-F 3 "~" H 4600 7150 50  0001 C CNN
-	1    4600 7150
+F 0 "R40" H 3770 7196 50  0000 L CNN
+F 1 "10k" H 3770 7105 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3630 7150 50  0001 C CNN
+F 3 "~" H 3700 7150 50  0001 C CNN
+	1    3700 7150
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -527,7 +524,7 @@ Wire Wire Line
 Connection ~ 1450 2200
 Wire Wire Line
 	1450 2200 1450 2600
-Text Label 4850 6950 0    50   ~ 0
+Text Label 3950 6950 0    50   ~ 0
 VBATT*0.68
 $Comp
 L 74xx:74LS125 U?
@@ -577,7 +574,7 @@ AR Path="/5FF148FE" Ref="TP?"  Part="1"
 AR Path="/5FE8F2D8/5FF148FE" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FF148FE" Ref="TP17"  Part="1" 
 F 0 "TP17" H 6158 3868 50  0000 L CNN
-F 1 "TestPoint" H 6158 3777 50  0000 L CNN
+F 1 "TestPoint" H 6158 3777 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 6300 3750 50  0001 C CNN
 F 3 "~" H 6300 3750 50  0001 C CNN
 	1    6100 3750
@@ -643,8 +640,8 @@ P 4500 1300
 AR Path="/5FE461A5" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE461A5" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FE461A5" Ref="TP3"  Part="1" 
-F 0 "TP3" H 4558 1418 50  0000 L CNN
-F 1 "TestPoint" H 4558 1327 50  0000 L CNN
+F 0 "TP3" H 4450 1500 50  0000 L CNN
+F 1 "TestPoint" H 4558 1327 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 4700 1300 50  0001 C CNN
 F 3 "~" H 4700 1300 50  0001 C CNN
 	1    4500 1300
@@ -693,7 +690,7 @@ Wire Wire Line
 Text Notes 650  1700 0    50   ~ 0
 Use 5V 3A high quality adapter, \ncenter pin positive.
 Text GLabel 7650 4000 0    50   Input ~ 0
-NEOPIXEL_GND
+EXTERNAL_GND
 Wire Wire Line
 	8800 4450 9050 4450
 Wire Wire Line
@@ -733,9 +730,9 @@ Connection ~ 9550 4100
 Wire Wire Line
 	10050 4100 10200 4100
 Text GLabel 10200 4100 2    50   Output ~ 0
-NEOPIXEL_POWER
+EXTERNAL_CURRENT
 Text Notes 7000 3600 0    118  ~ 0
-Neopixel power measurement
+External IO current measurement
 $Comp
 L Device:C C?
 U 1 1 5FFCA7E1
@@ -781,7 +778,7 @@ AR Path="/5FFDA1E9" Ref="TP?"  Part="1"
 AR Path="/5FE8F2D8/5FFDA1E9" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FFDA1E9" Ref="TP2"  Part="1" 
 F 0 "TP2" H 8358 3918 50  0000 L CNN
-F 1 "TestPoint" H 8358 3827 50  0000 L CNN
+F 1 "TestPoint" H 8358 3827 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 8500 3800 50  0001 C CNN
 F 3 "~" H 8500 3800 50  0001 C CNN
 	1    8300 3800
@@ -795,7 +792,7 @@ AR Path="/5FFDA6A9" Ref="TP?"  Part="1"
 AR Path="/5FE8F2D8/5FFDA6A9" Ref="TP?"  Part="1" 
 AR Path="/5FEEBD3E/5FFDA6A9" Ref="TP5"  Part="1" 
 F 0 "TP5" H 9608 3918 50  0000 L CNN
-F 1 "TestPoint" H 9608 3827 50  0000 L CNN
+F 1 "TestPoint" H 9608 3827 50  0001 L CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 9750 3800 50  0001 C CNN
 F 3 "~" H 9750 3800 50  0001 C CNN
 	1    9550 3800
@@ -805,8 +802,6 @@ Wire Wire Line
 	8300 4000 8300 3800
 Wire Wire Line
 	9550 4100 9550 3800
-Text Label 8300 4000 0    50   ~ 0
-RC_NEO_GND
 $Comp
 L power:GND2 #PWR029
 U 1 1 5FFD92CF
@@ -832,23 +827,23 @@ $EndComp
 $Comp
 L power:GND2 #PWR039
 U 1 1 5FFD9C43
-P 4600 7400
-F 0 "#PWR039" H 4600 7150 50  0001 C CNN
-F 1 "GND2" H 4605 7227 50  0000 C CNN
-F 2 "" H 4600 7400 50  0001 C CNN
-F 3 "" H 4600 7400 50  0001 C CNN
-	1    4600 7400
+P 3700 7400
+F 0 "#PWR039" H 3700 7150 50  0001 C CNN
+F 1 "GND2" H 3705 7227 50  0000 C CNN
+F 2 "" H 3700 7400 50  0001 C CNN
+F 3 "" H 3700 7400 50  0001 C CNN
+	1    3700 7400
 	1    0    0    -1  
 $EndComp
 $Comp
 L power:GND2 #PWR038
 U 1 1 5FFDB4B0
-P 3600 7400
-F 0 "#PWR038" H 3600 7150 50  0001 C CNN
-F 1 "GND2" H 3605 7227 50  0000 C CNN
-F 2 "" H 3600 7400 50  0001 C CNN
-F 3 "" H 3600 7400 50  0001 C CNN
-	1    3600 7400
+P 2400 7400
+F 0 "#PWR038" H 2400 7150 50  0001 C CNN
+F 1 "GND2" H 2405 7227 50  0000 C CNN
+F 2 "" H 2400 7400 50  0001 C CNN
+F 3 "" H 2400 7400 50  0001 C CNN
+	1    2400 7400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -889,15 +884,13 @@ F 3 "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf" H 3900 4150
 	-1   0    0    -1  
 $EndComp
 Wire Wire Line
-	4450 4150 4200 4150
+	4350 4150 4200 4150
 Wire Wire Line
 	3900 4350 3900 4450
 Connection ~ 3900 4450
 Wire Wire Line
 	3900 4450 5350 4450
 NoConn ~ 3600 4150
-Wire Wire Line
-	3350 4450 3900 4450
 $Comp
 L power:+5VL #PWR0115
 U 1 1 6076643D
@@ -943,4 +936,98 @@ F 3 "~" H 3300 2000 50  0001 C CNN
 	1    3300 2000
 	0    1    1    0   
 $EndComp
+Wire Wire Line
+	3700 6950 4850 6950
+Connection ~ 4850 6950
+$Comp
+L Device:R R?
+U 1 1 608B5EFD
+P 3900 4700
+AR Path="/608B5EFD" Ref="R?"  Part="1" 
+AR Path="/5FF1E7F2/608B5EFD" Ref="R?"  Part="1" 
+AR Path="/5FEEBD3E/608B5EFD" Ref="R67"  Part="1" 
+F 0 "R67" H 3970 4746 50  0000 L CNN
+F 1 "100k" H 3970 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 3830 4700 50  0001 C CNN
+F 3 "~" H 3900 4700 50  0001 C CNN
+	1    3900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608B80DD
+P 3900 4900
+AR Path="/608B80DD" Ref="#PWR?"  Part="1" 
+AR Path="/5FEEBD3E/608B80DD" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 3900 4650 50  0001 C CNN
+F 1 "GND" H 3905 4727 50  0000 C CNN
+F 2 "" H 3900 4900 50  0001 C CNN
+F 3 "" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3900 4850 3900 4900
+Wire Wire Line
+	3900 4550 3900 4450
+$Comp
+L Device:R R?
+U 1 1 608BE2D7
+P 6100 4700
+AR Path="/608BE2D7" Ref="R?"  Part="1" 
+AR Path="/5FF1E7F2/608BE2D7" Ref="R?"  Part="1" 
+AR Path="/5FEEBD3E/608BE2D7" Ref="R68"  Part="1" 
+F 0 "R68" H 6170 4746 50  0000 L CNN
+F 1 "100k" H 6170 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 6030 4700 50  0001 C CNN
+F 3 "~" H 6100 4700 50  0001 C CNN
+	1    6100 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 608C0723
+P 6100 4900
+AR Path="/608C0723" Ref="#PWR?"  Part="1" 
+AR Path="/5FF1E7F2/608C0723" Ref="#PWR?"  Part="1" 
+AR Path="/5FEEBD3E/608C0723" Ref="#PWR03"  Part="1" 
+F 0 "#PWR03" H 6100 4650 50  0001 C CNN
+F 1 "GND" H 6105 4727 50  0000 C CNN
+F 2 "" H 6100 4900 50  0001 C CNN
+F 3 "" H 6100 4900 50  0001 C CNN
+	1    6100 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6100 4850 6100 4900
+Wire Wire Line
+	6100 4550 6100 4450
+Connection ~ 6100 4450
+Wire Wire Line
+	3350 4450 3900 4450
+$Comp
+L Connector:TestPoint TP?
+U 1 1 609D60EE
+P 2750 4850
+AR Path="/609D60EE" Ref="TP?"  Part="1" 
+AR Path="/5FE8F2D8/609D60EE" Ref="TP?"  Part="1" 
+AR Path="/5FEEBD3E/609D60EE" Ref="TP20"  Part="1" 
+F 0 "TP20" H 2808 4968 50  0000 L CNN
+F 1 "TestPoint" H 2808 4877 50  0001 L CNN
+F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 2950 4850 50  0001 C CNN
+F 3 "~" H 2950 4850 50  0001 C CNN
+	1    2750 4850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	2750 4850 2750 4800
+Wire Wire Line
+	2750 4800 2950 4800
+Connection ~ 2950 4800
+Wire Wire Line
+	2950 4800 2950 4900
+Text Notes 7200 4150 0    50   ~ 0
+20mV@4A
+Text Notes 10350 4250 0    50   ~ 0
+2.02V@4A
 $EndSCHEMATC

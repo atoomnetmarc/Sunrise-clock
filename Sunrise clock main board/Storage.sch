@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 5 6
 Title "Sunrise clock main board"
-Date "2021-04-09"
+Date "2021-04-10"
 Rev "V1.0"
 Comp ""
 Comment1 ""
@@ -591,8 +591,8 @@ P 4750 1250
 AR Path="/5FE6D821" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE6D821" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FE6D821" Ref="TP12"  Part="1" 
-F 0 "TP12" H 4750 1575 50  0000 C CNN
-F 1 "TestPoint" H 4750 1484 50  0000 C CNN
+F 0 "TP12" H 4650 1450 50  0000 L CNN
+F 1 "TestPoint" H 4750 1484 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 4950 1250 50  0001 C CNN
 F 3 "~" H 4950 1250 50  0001 C CNN
 	1    4750 1250
@@ -608,8 +608,8 @@ P 5100 1250
 AR Path="/5FE7018B" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE7018B" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FE7018B" Ref="TP13"  Part="1" 
-F 0 "TP13" H 5100 1575 50  0000 C CNN
-F 1 "TestPoint" H 5100 1484 50  0000 C CNN
+F 0 "TP13" H 5000 1450 50  0000 L CNN
+F 1 "TestPoint" H 5100 1484 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5300 1250 50  0001 C CNN
 F 3 "~" H 5300 1250 50  0001 C CNN
 	1    5100 1250
@@ -622,8 +622,8 @@ P 5450 1250
 AR Path="/5FE71C10" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE71C10" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FE71C10" Ref="TP14"  Part="1" 
-F 0 "TP14" H 5450 1575 50  0000 C CNN
-F 1 "TestPoint" H 5450 1484 50  0000 C CNN
+F 0 "TP14" H 5350 1450 50  0000 L CNN
+F 1 "TestPoint" H 5450 1484 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 5650 1250 50  0001 C CNN
 F 3 "~" H 5650 1250 50  0001 C CNN
 	1    5450 1250
@@ -636,8 +636,8 @@ P 5800 1250
 AR Path="/5FE735F8" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE735F8" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FE735F8" Ref="TP15"  Part="1" 
-F 0 "TP15" H 5800 1575 50  0000 C CNN
-F 1 "TestPoint" H 5800 1484 50  0000 C CNN
+F 0 "TP15" H 5700 1450 50  0000 L CNN
+F 1 "TestPoint" H 5800 1484 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 6000 1250 50  0001 C CNN
 F 3 "~" H 6000 1250 50  0001 C CNN
 	1    5800 1250
@@ -650,8 +650,8 @@ P 6150 1250
 AR Path="/5FE75233" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FE75233" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FE75233" Ref="TP16"  Part="1" 
-F 0 "TP16" H 6150 1575 50  0000 C CNN
-F 1 "TestPoint" H 6150 1484 50  0000 C CNN
+F 0 "TP16" H 6050 1450 50  0000 L CNN
+F 1 "TestPoint" H 6150 1484 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 6350 1250 50  0001 C CNN
 F 3 "~" H 6350 1250 50  0001 C CNN
 	1    6150 1250
@@ -692,8 +692,8 @@ P 7650 2850
 AR Path="/5FF0A99A" Ref="TP?"  Part="1" 
 AR Path="/5FE8F2D8/5FF0A99A" Ref="TP?"  Part="1" 
 AR Path="/5FFF46F4/5FF0A99A" Ref="TP1"  Part="1" 
-F 0 "TP1" H 7650 3175 50  0000 C CNN
-F 1 "TestPoint" H 7650 3084 50  0000 C CNN
+F 0 "TP1" H 7600 3050 50  0000 L CNN
+F 1 "TestPoint" H 7650 3084 50  0001 C CNN
 F 2 "TestPoint:TestPoint_THTPad_1.5x1.5mm_Drill0.7mm" H 7850 2850 50  0001 C CNN
 F 3 "~" H 7850 2850 50  0001 C CNN
 	1    7650 2850
