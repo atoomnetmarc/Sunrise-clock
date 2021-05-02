@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Sunrise clock main board"
-Date "2021-04-11"
-Rev "V1.0"
+Date "2021-05-02"
+Rev "V1.1"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
 Comment2 ""
@@ -430,21 +430,6 @@ Wire Wire Line
 	8200 1450 8200 1100
 $Comp
 L power:+5V #PWR?
-U 1 1 60027F1E
-P 8400 1100
-AR Path="/60027F1E" Ref="#PWR?"  Part="1" 
-AR Path="/6000DF4A/60027F1E" Ref="#PWR0180"  Part="1" 
-F 0 "#PWR0180" H 8400 950 50  0001 C CNN
-F 1 "+5V" H 8415 1273 50  0000 C CNN
-F 2 "" H 8400 1100 50  0001 C CNN
-F 3 "" H 8400 1100 50  0001 C CNN
-	1    8400 1100
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	8400 1450 8400 1100
-$Comp
-L power:+5V #PWR?
 U 1 1 60027F2B
 P 9300 1100
 AR Path="/60027F2B" Ref="#PWR?"  Part="1" 
@@ -489,7 +474,7 @@ Wire Wire Line
 Wire Wire Line
 	9300 2100 9300 1850
 Wire Wire Line
-	8700 1850 9300 1850
+	8700 1850 8800 1850
 Connection ~ 9300 1850
 Text GLabel 9100 4500 2    50   Output ~ 0
 I2S_GAIN0
@@ -714,19 +699,6 @@ F 3 "~" H 7600 1550 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:C C?
-U 1 1 5FF21F5F
-P 8800 1550
-AR Path="/5FF21F5F" Ref="C?"  Part="1" 
-AR Path="/6000DF4A/5FF21F5F" Ref="C18"  Part="1" 
-F 0 "C18" H 8915 1596 50  0000 L CNN
-F 1 "100nF" H 8915 1505 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 8838 1400 50  0001 C CNN
-F 3 "~" H 8800 1550 50  0001 C CNN
-	1    8800 1550
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 5FF221AB
 P 7600 1100
@@ -737,19 +709,6 @@ F 1 "+3.3V" H 7615 1273 50  0000 C CNN
 F 2 "" H 7600 1100 50  0001 C CNN
 F 3 "" H 7600 1100 50  0001 C CNN
 	1    7600 1100
-	1    0    0    -1  
-$EndComp
-$Comp
-L power:+5V #PWR?
-U 1 1 5FF223CA
-P 8800 1100
-AR Path="/5FF223CA" Ref="#PWR?"  Part="1" 
-AR Path="/6000DF4A/5FF223CA" Ref="#PWR0181"  Part="1" 
-F 0 "#PWR0181" H 8800 950 50  0001 C CNN
-F 1 "+5V" H 8815 1273 50  0000 C CNN
-F 2 "" H 8800 1100 50  0001 C CNN
-F 3 "" H 8800 1100 50  0001 C CNN
-	1    8800 1100
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -782,10 +741,6 @@ Wire Wire Line
 	7600 1700 7600 2650
 Wire Wire Line
 	7600 1400 7600 1100
-Wire Wire Line
-	8800 1100 8800 1400
-Wire Wire Line
-	8800 1700 8800 2650
 $Comp
 L Device:Polyfuse F?
 U 1 1 5FF393CA
@@ -1248,4 +1203,13 @@ Wire Wire Line
 Connection ~ 10500 4700
 Wire Wire Line
 	10500 4700 10700 4700
+Wire Wire Line
+	8400 1450 8400 1250
+Wire Wire Line
+	8400 1250 8800 1250
+Wire Wire Line
+	8800 1250 8800 1850
+Connection ~ 8800 1850
+Wire Wire Line
+	8800 1850 9300 1850
 $EndSCHEMATC
