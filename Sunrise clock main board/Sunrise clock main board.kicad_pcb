@@ -2152,7 +2152,7 @@
     (fp_text reference U7 (at 0 -5.28 90) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value 74AHC125D (at 0 5.28 90) (layer F.Fab)
+    (fp_text value 74AHCT125D (at 0 5.28 90) (layer F.Fab)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_line (start 3.7 -4.58) (end -3.7 -4.58) (layer F.CrtYd) (width 0.05))
