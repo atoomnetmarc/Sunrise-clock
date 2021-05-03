@@ -30,10 +30,8 @@ Text GLabel 9100 4400 2    50   Input ~ 0
 RTC_INT
 Wire Wire Line
 	3650 3200 4000 3200
-Text GLabel 4000 3300 2    50   Input ~ 0
+Text GLabel 5350 2800 2    50   Input ~ 0
 EXP_INT
-Wire Wire Line
-	3650 3300 4000 3300
 $Comp
 L power:GND #PWR?
 U 1 1 60018DB4
@@ -1212,4 +1210,70 @@ Wire Wire Line
 Connection ~ 8800 1850
 Wire Wire Line
 	8800 1850 9300 1850
+$Comp
+L Device:R R?
+U 1 1 60938F94
+P 5050 3100
+AR Path="/60938F94" Ref="R?"  Part="1" 
+AR Path="/6000DF4A/60938F94" Ref="R36"  Part="1" 
+F 0 "R36" H 5120 3146 50  0000 L CNN
+F 1 "4k7" H 5120 3055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4980 3100 50  0001 C CNN
+F 3 "~" H 5050 3100 50  0001 C CNN
+	1    5050 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 60939612
+P 5050 3550
+AR Path="/60939612" Ref="R?"  Part="1" 
+AR Path="/6000DF4A/60939612" Ref="R47"  Part="1" 
+F 0 "R47" H 4980 3504 50  0000 R CNN
+F 1 "10k" H 4980 3595 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 4980 3550 50  0001 C CNN
+F 3 "~" H 5050 3550 50  0001 C CNN
+	1    5050 3550
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 60939B35
+P 5050 4400
+AR Path="/60939B35" Ref="#PWR?"  Part="1" 
+AR Path="/6000DF4A/60939B35" Ref="#PWR0129"  Part="1" 
+F 0 "#PWR0129" H 5050 4150 50  0001 C CNN
+F 1 "GND" H 5055 4227 50  0000 C CNN
+F 2 "" H 5050 4400 50  0001 C CNN
+F 3 "" H 5050 4400 50  0001 C CNN
+	1    5050 4400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 4400 5050 3700
+Wire Wire Line
+	5050 3400 5050 3300
+Wire Wire Line
+	5050 2950 5050 2800
+Wire Wire Line
+	5050 2800 5350 2800
+Wire Wire Line
+	3650 3300 5050 3300
+Connection ~ 5050 3300
+Wire Wire Line
+	5050 3300 5050 3250
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 6095E361
+P 8800 1100
+F 0 "#FLG0105" H 8800 1175 50  0001 C CNN
+F 1 "PWR_FLAG" H 8800 1273 50  0000 C CNN
+F 2 "" H 8800 1100 50  0001 C CNN
+F 3 "~" H 8800 1100 50  0001 C CNN
+	1    8800 1100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8800 1100 8800 1250
+Connection ~ 8800 1250
 $EndSCHEMATC
