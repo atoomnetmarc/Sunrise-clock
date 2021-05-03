@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 4 6
 Title "Sunrise clock main board"
-Date "2021-04-11"
+Date "2021-05-03"
 Rev "V1.0"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
@@ -257,25 +257,25 @@ MEMS RTC
 Text Notes 3600 4900 0    50   ~ 0
 I2C: 0x68
 $Comp
-L Module-extra:BME280 U?
+L Module-extra:BME280_3V U?
 U 1 1 5FEE6C4C
 P 1950 7150
 AR Path="/5FEE6C4C" Ref="U?"  Part="1" 
 AR Path="/5FE8F2D8/5FEE6C4C" Ref="A5"  Part="1" 
 F 0 "A5" H 2228 7346 50  0000 L CNN
-F 1 "BME280 module" H 2228 7255 50  0000 L CNN
-F 2 "Module-extra:bme280" H 1950 7150 50  0001 C CNN
+F 1 "BME280 module 3V" H 2228 7255 50  0000 L CNN
+F 2 "Module-extra:bme280_3V" H 1950 7150 50  0001 C CNN
 F 3 "" H 1950 7150 50  0001 C CNN
 	1    1950 7150
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	1350 7050 1600 7050
+	1350 6950 1600 6950
 Wire Wire Line
-	1600 6950 1350 6950
-Text GLabel 1350 6950 0    50   Input ~ 0
+	1600 6850 1350 6850
+Text GLabel 1350 6850 0    50   Input ~ 0
 SCL_3V
-Text GLabel 1350 7050 0    50   BiDi ~ 0
+Text GLabel 1350 6950 0    50   BiDi ~ 0
 SDA_3V
 $Comp
 L power:GND #PWR?
@@ -306,17 +306,6 @@ Text Notes 600  6150 0    118  ~ 0
 Temperature,\nHumidity,\nPressure sensor
 Text Notes 2250 7200 0    50   ~ 0
 I2C: 0x76
-$Comp
-L power:+5V #PWR0153
-U 1 1 60122BD7
-P 1950 6550
-F 0 "#PWR0153" H 1950 6400 50  0001 C CNN
-F 1 "+5V" H 1965 6723 50  0000 C CNN
-F 2 "" H 1950 6550 50  0001 C CNN
-F 3 "" H 1950 6550 50  0001 C CNN
-	1    1950 6550
-	1    0    0    -1  
-$EndComp
 $Comp
 L Connector:TestPoint TP?
 U 1 1 5FE5948B
@@ -689,4 +678,19 @@ Wire Wire Line
 Connection ~ 3550 5000
 Wire Wire Line
 	3550 5000 3550 4800
+NoConn ~ 1600 7050
+NoConn ~ 1600 7150
+$Comp
+L power:+3.3V #PWR?
+U 1 1 609048B1
+P 1950 6550
+AR Path="/609048B1" Ref="#PWR?"  Part="1" 
+AR Path="/5FE8F2D8/609048B1" Ref="#PWR?"  Part="1" 
+F 0 "#PWR?" H 1950 6400 50  0001 C CNN
+F 1 "+3.3V" H 1965 6723 50  0000 C CNN
+F 2 "" H 1950 6550 50  0001 C CNN
+F 3 "" H 1950 6550 50  0001 C CNN
+	1    1950 6550
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
