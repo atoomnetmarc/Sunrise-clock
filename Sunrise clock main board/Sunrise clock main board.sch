@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 6
 Title "Sunrise clock main board"
-Date "2021-04-11"
-Rev "V1.0"
+Date "2021-05-04"
+Rev "V1.1"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
 Comment2 ""

@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 6 6
 Title "Sunrise clock main board"
-Date "2021-05-02"
+Date "2021-05-04"
 Rev "V1.1"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
@@ -28,8 +28,6 @@ F 3 "https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32_
 $EndComp
 Text GLabel 9100 4400 2    50   Input ~ 0
 RTC_INT
-Wire Wire Line
-	3650 3200 4000 3200
 Text GLabel 5350 2800 2    50   Input ~ 0
 EXP_INT
 $Comp
@@ -910,8 +908,6 @@ F 3 "~" H 9300 1550 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	9300 1700 9300 1850
-Text GLabel 4000 3200 2    50   Input ~ 0
-EXTERNAL_CURRENT
 Wire Wire Line
 	8900 4400 9100 4400
 NoConn ~ 3650 2200
@@ -1171,8 +1167,8 @@ L Device:R R?
 U 1 1 60B7262C
 P 10500 4150
 AR Path="/60B7262C" Ref="R?"  Part="1" 
-AR Path="/6000DF4A/60B7262C" Ref="R71"  Part="1" 
-F 0 "R71" H 10430 4104 50  0000 R CNN
+AR Path="/6000DF4A/60B7262C" Ref="R60"  Part="1" 
+F 0 "R60" H 10430 4104 50  0000 R CNN
 F 1 "100k" H 10430 4195 50  0000 R CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 10430 4150 50  0001 C CNN
 F 3 "~" H 10500 4150 50  0001 C CNN
@@ -1276,4 +1272,5 @@ $EndComp
 Wire Wire Line
 	8800 1100 8800 1250
 Connection ~ 8800 1250
+NoConn ~ 3650 3200
 $EndSCHEMATC

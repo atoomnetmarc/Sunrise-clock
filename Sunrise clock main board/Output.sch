@@ -5,8 +5,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 3 6
 Title "Sunrise clock main board"
-Date "2021-04-11"
-Rev "V1.0"
+Date "2021-05-04"
+Rev "V1.1"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
 Comment2 ""
@@ -290,8 +290,6 @@ F 3 "" H 9850 5400 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	9850 5400 9850 4850
-Wire Wire Line
 	9850 4100 10300 4100
 Wire Wire Line
 	8950 4000 10300 4000
@@ -545,60 +543,6 @@ Text Label 9150 4000 0    50   ~ 0
 NEOPIXEL_DOUT
 Text Notes 10000 4350 0    50   ~ 0
 Connect to pins 1 to 5\nof GX16-5 connector.
-$Comp
-L Device:R R?
-U 1 1 5FF8F584
-P 9850 4600
-AR Path="/5FF8F584" Ref="R?"  Part="1" 
-AR Path="/5FF1E7F2/5FF8F584" Ref="R1"  Part="1" 
-F 0 "R1" V 9643 4600 50  0000 C CNN
-F 1 "0R005" V 9734 4600 50  0000 C CNN
-F 2 "Resistor_SMD:R_2512_6332Metric_Pad1.52x3.35mm_HandSolder" V 9780 4600 50  0001 C CNN
-F 3 "~" H 9850 4600 50  0001 C CNN
-	1    9850 4600
-	-1   0    0    1   
-$EndComp
-Wire Wire Line
-	9850 4450 9850 4100
-Text GLabel 9700 4100 0    50   Output ~ 0
-EXTERNAL_GND
-Wire Wire Line
-	9850 4100 9700 4100
-Connection ~ 9850 4100
-$Comp
-L power:GND2 #PWR040
-U 1 1 5FFE3A4B
-P 10550 5400
-F 0 "#PWR040" H 10550 5150 50  0001 C CNN
-F 1 "GND2" H 10555 5227 50  0000 C CNN
-F 2 "" H 10550 5400 50  0001 C CNN
-F 3 "" H 10550 5400 50  0001 C CNN
-	1    10550 5400
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10100 4850 9850 4850
-Connection ~ 9850 4850
-Wire Wire Line
-	9850 4850 9850 4750
-Wire Wire Line
-	10300 4850 10550 4850
-Wire Wire Line
-	10550 4850 10550 5400
-$Comp
-L power:PWR_FLAG #FLG01
-U 1 1 5FFE9589
-P 10550 4700
-F 0 "#FLG01" H 10550 4775 50  0001 C CNN
-F 1 "PWR_FLAG" H 10550 4873 50  0000 C CNN
-F 2 "" H 10550 4700 50  0001 C CNN
-F 3 "~" H 10550 4700 50  0001 C CNN
-	1    10550 4700
-	1    0    0    -1  
-$EndComp
-Wire Wire Line
-	10550 4850 10550 4700
-Connection ~ 10550 4850
 Wire Wire Line
 	3000 1200 3700 1200
 Wire Wire Line
@@ -766,8 +710,8 @@ L Device:R R?
 U 1 1 6083B3D8
 P 8050 3800
 AR Path="/6083B3D8" Ref="R?"  Part="1" 
-AR Path="/5FF1E7F2/6083B3D8" Ref="R16"  Part="1" 
-F 0 "R16" V 7843 3800 50  0000 C CNN
+AR Path="/5FF1E7F2/6083B3D8" Ref="R13"  Part="1" 
+F 0 "R13" V 7843 3800 50  0000 C CNN
 F 1 "100R" V 7934 3800 50  0000 C CNN
 F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" V 7980 3800 50  0001 C CNN
 F 3 "~" H 8050 3800 50  0001 C CNN
@@ -958,17 +902,6 @@ Wire Wire Line
 NoConn ~ 7100 1400
 Text Notes 5450 750  0    118  ~ 0
 Unused, but not forgotten
-$Comp
-L Device:Net-Tie_2 NT1
-U 1 1 5FFE41C2
-P 10200 4850
-F 0 "NT1" H 10200 4939 50  0000 C CNN
-F 1 "Net-Tie_2" H 10200 4940 50  0001 C CNN
-F 2 "NetTie-fixed:NetTie-2_SMD_Pad0.5mm" H 10200 4850 50  0001 C CNN
-F 3 "~" H 10200 4850 50  0001 C CNN
-	1    10200 4850
-	1    0    0    -1  
-$EndComp
 NoConn ~ 3050 6700
 NoConn ~ 3050 6800
 Text GLabel 4800 6750 0    50   Input ~ 0
@@ -1232,4 +1165,6 @@ Text GLabel 5600 6950 0    50   Input ~ 0
 Wire Wire Line
 	5600 6950 5700 6950
 Connection ~ 5700 6950
+Wire Wire Line
+	9850 4100 9850 5400
 $EndSCHEMATC
