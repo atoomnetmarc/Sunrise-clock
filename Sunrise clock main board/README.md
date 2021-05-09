@@ -18,7 +18,7 @@ Worky (after workaround)?
 :ballot_box_with_check: BME280 sensor\
 :ballot_box_with_check: MCP23017 I/O expander\
 :ballot_box_with_check: LDR\
-:black_square_button: LCD displays\
+:ballot_box_with_check: LCD displays\
 :ballot_box_with_check: Neopixel\
 :ballot_box_with_check: Polyfuse F1\
 :ballot_box_with_check: GPO2\
