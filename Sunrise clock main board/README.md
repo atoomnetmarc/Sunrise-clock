@@ -13,16 +13,16 @@ Worky (after workaround)?
 :ballot_box_with_check: 3.3V I2C\
 :ballot_box_with_check: 5V I2C\
 :ballot_box_with_check: INA219 current/power measuring\
-:black_square_button: AT24C512C EEPROM\
-:black_square_button: DS3231MZ mems RTC\
-:black_square_button: BME280 sensor\
+:ballot_box_with_check: AT24C512C EEPROM\
+:ballot_box_with_check: DS3231MZ mems RTC\
+:ballot_box_with_check: BME280 sensor\
 :ballot_box_with_check: MCP23017 I/O expander\
 :ballot_box_with_check: LDR\
 :black_square_button: LCD displays\
 :ballot_box_with_check: Neopixel\
-:black_square_button: Polyfuse F1\
-:black_square_button: GPO2\
-:black_square_button: I2S audio amplifier left channel (mono)\
+:ballot_box_with_check: Polyfuse F1\
+:ballot_box_with_check: GPO2\
+:ballot_box_with_check: I2S audio amplifier left channel (mono)\
 :black_square_button: I2S audio amplifier right channel
 
 # Errata
