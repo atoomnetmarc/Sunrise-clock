@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 2 6
 Title "Sunrise clock main board"
-Date "2021-05-04"
+Date "2021-08-06"
 Rev "V1.1"
 Comp "https://github.com/atoomnetmarc/Sunrise-clock-hardware"
 Comment1 ""
@@ -936,17 +936,6 @@ VIN-
 Text GLabel 7350 4100 0    50   Input ~ 0
 VIN+
 $Comp
-L Analog_ADC:INA219AxDCN U11
-U 1 1 60972090
-P 9050 4450
-F 0 "U11" H 9150 4800 50  0000 C CNN
-F 1 "INA219AIDCNR" H 9400 4050 50  0000 C CNN
-F 2 "Package_TO_SOT_SMD:SOT-23-8" H 9700 4100 50  0001 C CNN
-F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 9400 4350 50  0001 C CNN
-	1    9050 4450
-	1    0    0    -1  
-$EndComp
-$Comp
 L power:+3.3V #PWR?
 U 1 1 6097322D
 P 9050 3800
@@ -1118,4 +1107,15 @@ Wire Wire Line
 Wire Wire Line
 	8500 4350 8650 4350
 Connection ~ 8050 4100
+$Comp
+L Analog_ADC:INA219AxD U11
+U 1 1 610D83DD
+P 9050 4450
+F 0 "U11" H 9250 4800 50  0000 C CNN
+F 1 "INA219AxD" H 9350 4050 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 9850 4100 50  0001 C CNN
+F 3 "http://www.ti.com/lit/ds/symlink/ina219.pdf" H 9400 4350 50  0001 C CNN
+	1    9050 4450
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
